@@ -1,8 +1,10 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(255, 248, 238);
+    color: rgb(255, 255, 255);
     padding: 10px;
-    font-family: arial;
+    font-family:monospace;
+    font-size:125%;
+    
 }
 #all-contents {
   max-width: 800px;
@@ -11,15 +13,16 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(153, 118, 95);
    margin: 0 auto;
     display: flex;
     padding: 10px;
+    width: 100%;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -29,6 +32,7 @@ h1 {
 .nav-li {
     display: inline-block;
     padding: 0 10px;
+    font-size: x-large;
 }
 a {
     text-decoration: none;
@@ -37,15 +41,24 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(255, 193, 223);
     display: flex;
+    width: 102.5%;
+    height: 100%;
 }
 .sidebar {
-    margin-right: 25px;
+    margin-right: 0 auto;
     padding: 10px;
 }
 .sidebar-img {
-    width: 200px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+  height: 400px;
+    width: 400px;
+    border-radius: 100%;
+
+   
 }
 .content {
     flex: 1;
